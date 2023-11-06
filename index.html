@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L´Morsure</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    /* Media query para pantallas más pequeñas */
+    @media (max-width: 768px) {
+        header {
+            font-size: 20px;
+            background-color: #555;
+        }
+    }
+</style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+  <header>
+    <div class="logo">
+      <a href="index.html">
+      <img src="logo.png" alt="L´Morsure Logo">
+    </a>
+      
+     </div>
+    
+     <nav>
+      <ul>
+        <li><a href="Mujer.html">Mujer</a></li>
+        <li><a href="Hombre.html">Hombre</a></li>
+        <li><a href="Carrito de compras.html">Carro de compras</a></li>
+      </ul>
+    </nav>
+    <div class="menu-item">  </div>
+      
+     
+
+    
+  </header>
+  <div class="slide">
+    <div class="slide-inner">
+        <input class="slide-open" type="radio" id="slide-1" 
+              name="slide" aria-hidden="true" hidden="" checked="checked">
+        <div class="slide-item">
+          
+            <img src="image1.jpg">
+        </div>
+        <input class="slide-open" type="radio" id="slide-2" 
+              name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item">
+            <img src="image5.jpg">
+        </div>
+        <input class="slide-open" type="radio" id="slide-3" 
+              name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item">
+            <img src="image 4.jpg">
+        </div>
+        <label for="slide-3" class="slide-control prev control-1">‹</label>
+        <label for="slide-2" class="slide-control next control-1">›</label>
+        <label for="slide-1" class="slide-control prev control-2">‹</label>
+        <label for="slide-3" class="slide-control next control-2">›</label>
+        <label for="slide-2" class="slide-control prev control-3">‹</label>
+        <label for="slide-1" class="slide-control next control-3">›</label>
+        <ol class="slide-indicador">
+            <li>
+                <label for="slide-1" class="slide-circulo">•</label>
+            </li>
+            <li>
+                <label for="slide-2" class="slide-circulo">•</label>
+            </li>
+            <li>
+                <label for="slide-3" class="slide-circulo">•</label>
+            </li>
+        </ol>
+    </div>
+</div>
+  
+
+    <!-- Contenido adicional -->
+  </main>
+  <footer>
+    <nav>
+      <ul>
+        
+        <li><a href="https://instagram.com/lmorsure_clothes?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=61553203531686&is_tour_dismissed=true">Facebook</a></li>
+       <li><a href="https://www.youtube.com/channel/UC-AcVCn5qO8V9cCr_ogaNMg">Youtube</a></li>
+       
+      </ul>
+    </nav>
+
+    <p>&copy; 2023 L´Morsure. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

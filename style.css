@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para pantalla pequeña */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: center;
+        display: block;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.slider {
+    /* Estilos del slider (necesitas implementar un slider real) */
+}
+
+.black-bar {
+    background-color: #000;
+    height: 20px;
+}
+
+main {
+    padding: 20px;
+    /* Estilos del contenido de la tienda */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+}

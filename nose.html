@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="mujer.html">Mujer</a></li>
+                <li><a href="hombre.html">Hombre</a></li>
+                <li><a href="carrito.html">Carro de Compra</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" 
+                  name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+              
+                <img src="image1.webp">
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" 
+                  name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="image5.jpg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" 
+                  name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="image 4.jpg">
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="black-bar"></div>
+
+    <main>
+        <!-- Contenido de la tienda de ropa -->
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://instagram.com/tiendaropa" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            <a href="https://youtube.com/tiendaropa" target="_blank"><img src="youtube.png" alt="YouTube"></a>
+            <a href="https://facebook.com/tiendaropa" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+        </div>
+        &copy; 2023 Tienda de Ropa. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
